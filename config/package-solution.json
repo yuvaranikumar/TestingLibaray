@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "listwebpart-client-side-solution",
+    "id": "a3067ace-f138-447d-8201-b7884d4978c6",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.4"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Listwebpart description"
+      },
+      "longDescription": {
+        "default": "Listwebpart description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "listwebpart Feature",
+        "description": "The feature that activates elements of the listwebpart solution.",
+        "id": "ac9c052b-820f-41d3-9480-3b6aaab73e15",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/listwebpart.sppkg"
+  }
+}
